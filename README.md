@@ -19,16 +19,28 @@ se468\PackageBoilerplate\PackageServiceProvider::class,
 
 Create folder `packages/se468` and clone this repo inside it.
 
-In `PackageServiceProvider.php` in `src`, change the places where it is commented.
-
 Run these commands to set up the dependencies:
 ```
 composer install
-npm install
-npm install webpack --save-dev
 ```
 
 Go to route `/package-boilerplate` and see if you see Hello world. If you did, congratulations!
+
+## Setting up webpack and laravel-mix
+In your package directory, run the following commands.
+```
+npm install
+npm install webpack -D
+npm install webpack-cli -D
+```
+
+Now try running:
+```
+npm run dev
+```
+and check if it creates compiled js/css in public directory.
+
+## Rename
 
 Rename everything to match your own:
 * Your Github ID - example: se468
@@ -47,6 +59,7 @@ For your package:
 1. Rename packages/se468 to your own github id
 2. PackageServiceProvider
 3. composer.json
+4. anywhere else you need to change
 ```
 
 Remove any features you don't need from the boilerplate.
