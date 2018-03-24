@@ -1,7 +1,7 @@
 # Laravel Package Boilerplate
-Starting point for Laravel package development.
+Starting point for Laravel package development. This is developed for Laravel 5.6 and up.
 
-It has following folders and files so you don't have to start from scratch:
+What this package comes with:
 ```
 Migrations
 Model/Controllers
@@ -12,6 +12,8 @@ PHPUnit
 
 
 ## Getting Started
+
+In your laravel installation root directory, create folder `packages/se468`, and run `composer install `
 
 In your laravel installation root directory, in `composer.json`, add the package namespace: 
 
@@ -26,8 +28,6 @@ In `config/app.php`, in the providers array, add
 ```
 se468\PackageBoilerplate\PackageServiceProvider::class,
 ```
-
-Create folder `packages/se468` and clone this repo inside it.
 
 Run these commands to set up the dependencies:
 ```
