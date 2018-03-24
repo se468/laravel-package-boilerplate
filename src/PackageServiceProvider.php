@@ -18,7 +18,7 @@ class PackageServiceProvider extends ServiceProvider //Change class name here
 
         //Change vendor path to your package name
         $this->publishes([
-            __DIR__.'/public' => public_path('vendor/se468/laravel-package-boilderplate'), 
+            __DIR__.'/public' => public_path('vendor/se468/laravel-package-boilerplate'), 
         ], 'public');
     }
 
