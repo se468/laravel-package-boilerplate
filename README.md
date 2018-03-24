@@ -10,6 +10,8 @@ Webpack / Laravel Mix / VueJS
 PHPUnit
 ```
 
+![directory](https://seyongcho.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-24-at-3.35.21-PM.png "Directory Structure")
+
 
 ## Getting Started
 
