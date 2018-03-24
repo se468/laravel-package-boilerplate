@@ -42,7 +42,6 @@ In your package directory, run the following commands.
 ```
 npm install
 npm install webpack -D
-npm install webpack-cli -D
 ```
 
 Now try running:
