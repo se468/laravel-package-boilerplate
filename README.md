@@ -1,5 +1,15 @@
 # Laravel Package Boilerplate
-Starting point for Laravel package development
+Starting point for Laravel package development.
+
+It has following folders and files so you don't have to start from scratch:
+```
+Migrations
+Model/Controllers
+Routes/Views
+Webpack / Laravel Mix / VueJS 
+PHPUnit
+```
+
 
 ## Getting Started
 
@@ -27,6 +37,7 @@ composer install
 Go to route `/package-boilerplate` and see if you see Hello world. If you did, congratulations!
 
 ## Setting up webpack and laravel-mix
+
 In your package directory, run the following commands.
 ```
 npm install
@@ -39,6 +50,8 @@ Now try running:
 npm run dev
 ```
 and check if it creates compiled js/css in public directory.
+
+Then, run `php artisan vendor:publish --tag=public --force` to publish your assets.
 
 ## Rename
 
