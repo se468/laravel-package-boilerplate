@@ -19,15 +19,6 @@ se468\PackageBoilerplate\PackageServiceProvider::class,
 
 Create folder `packages/se468` and clone this repo inside it.
 
-Change `composer.json` inside the package directory to your own package name, namespace and github id.
-```
-name
-description
-authors
-psr-4
-providers
-```
-
 In `PackageServiceProvider.php` in `src`, change the places where it is commented.
 
 Run these commands to set up the dependencies:
