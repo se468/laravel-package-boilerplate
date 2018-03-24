@@ -1,0 +1,38 @@
+{
+    "name": "se468/laravel-package-boilerplate",
+    "description": "Starting point for Laravel package development.",
+    "keywords": ["laravel", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seyong Cho",
+            "email": "se468@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.5",
+        "illuminate/mail": "~5.5",
+        "illuminate/filesystem": "~5.5"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9.2|~1.0.0",
+        "phpunit/phpunit" : "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "se468\\PackageBoilerplate\\": "src"
+        },
+        "classmap": [
+            "tests"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "se468\\PackageBoilerplate\\PackageServiceProvider"
+            ]
+        }
+    }
+}
