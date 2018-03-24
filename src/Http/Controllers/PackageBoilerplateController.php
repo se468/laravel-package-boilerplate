@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Artisan;
 class PackageBoilerplateController extends Controller{
 
     public function index () {
-
+        /* Comment this out before publishing */
         Artisan::call('vendor:publish', [
             '--tag' => 'public', 
             '--force' => 1
